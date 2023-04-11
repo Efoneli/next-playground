@@ -1,10 +1,9 @@
-import { useRouter  }  from "next/router"
-import { use } from "react"
+import { useRouter }  from "next/router";
 
-function Id() {
-    const router = useRouter
+function prodctDetails() {
+    const router = useRouter()
     const productId = router.query.productId
-    return <h1>Details about product {productId}</h1>
+    return <h1>Details about the product {productId}</h1>
 }
 
-export default Id
+export default prodctDetails
