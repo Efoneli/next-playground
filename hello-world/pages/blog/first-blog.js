@@ -1,12 +1,5 @@
-import Link from 'next/link';
-
-export default function FirstPost() {
-    return (
-    <>
-        <h1>First post</h1>;
-        <h2>
-            <Link href='/'>Back to home</Link>
-        </h2>
-     </>
-     )
+function FirstBlog() {
+    return <h1>FirstBlog page</h1>
 }
+
+export default FirstBlog

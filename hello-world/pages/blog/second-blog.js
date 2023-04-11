@@ -1,5 +1,5 @@
-function FirstBlog() {
-    return <h1>FirstBlog page</h1>
+function tBlog() {
+    return <h1>2tBlog page</h1>
 }
 
-export default FirstBlog
+export default tBlog
