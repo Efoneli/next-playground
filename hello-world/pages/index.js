@@ -1,31 +1,41 @@
-import Link from 'next/link'
-import { useRouter } from 'next/router'
 
 function Home() {
-  const router = useRouter()
-
-  const handleChange = () => {
-    console.log('order placed')
-    router.push('/product')
-  }
-
-  return (
-    <div>
-      <h1>Home page</h1>
-      <Link href='/product'>
-      <h1>Product</h1>
-      </Link>
-      <Link href='/blog'>
-      <p>Blog</p>
-      </Link>
-      <button onClick={handleChange}>
-        place order
-      </button>
-    </div>
-  ) 
+  return <h1>Next Js pre-rendering</h1>
 }
 
 export default Home
+
+
+
+
+// import Link from 'next/link'
+// import { useRouter } from 'next/router'
+
+// function Home() {
+//   const router = useRouter()
+
+//   const handleChange = () => {
+//     console.log('order placed')
+//     router.push('/product')
+//   }
+
+//   return (
+//     <div>
+//       <h1>Home page</h1>
+//       <Link href='/product'>
+//       <h1>Product</h1>
+//       </Link>
+//       <Link href='/blog'>
+//       <p>Blog</p>
+//       </Link>
+//       <button onClick={handleChange}>
+//         place order
+//       </button>
+//     </div>
+//   ) 
+// }
+
+// export default Home
 
 
 
