@@ -2,16 +2,17 @@ import Link from 'next/link'
 
 
 function Home() {
-  return 
+  return (
   <>
     <h1>Next Js pre-rendering</h1>
     <Link href='/users'>
-      <a>Users</a>
+      <p>Users</p>
     </Link>
     <Link href='/posts'>
-      <a>Posts</a>
+      <p>Posts</p>
     </Link>
   </>
+  )
 }
 
 export default Home
